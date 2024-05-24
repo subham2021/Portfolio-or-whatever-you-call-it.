@@ -3,64 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROFILE</title>
-    <style>
-        body {
-            font-family: "Lucida Console", monospace; 
-            margin: 20px;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        
-        header {
-            background-color: ;
-            color: black;
-            padding: 10px;
-            text-align: center;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-        
-        h1 {            
-            font-size: 100px;
-            text-transform: uppercase;
-            margin: 10px;
-        } 
-   h2 {
-    font-size: 20px;
-    padding: 10px;
-    text-align: center;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 20px; /* Adjust the top margin as needed */
-}
-
-
-
-        
-        .profile {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: justify;
-        }
-    </style>
+    <title>Subham's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>SUBHAM</h1>
+    <h1 id="name">SUBHAM<a href="#" id="rocket-link" class="rocketGame">🚀</a></h1>
+<div id="speech-bubble" class="speech-bubble" style="display: none;">
+    <span id="close-bubble" style="cursor: pointer; position: absolute; top: 5px; right: 10px;">&times;</span>
+    Would you like to play this little game?
+</div>
+
+        <p>
+            I am a BCA (Bachelors of Computer Applications) graduate. I have a keen interest in science, programming, and applied mathematics. I like solving problems. Making an existing system more efficient than it was constitutes to my fundamental way of thinking. I like working on complex systems with speed and precision. I am looking for internship as well as full-time opportunities, primarily in Backend development, Design of algorithm and data structures and Machine Learning systems.
+        </p>
+        <nav>
+            <ul class="rocket-bullet">
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#github">GitHub</a></li>
+                <li><a href="#leetcode">Leetcode</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#article">Articles</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <article class="profile">
-        <p>I am a BCA (Bachelors of Computer Applications) graduate. I have a keen interest in science, programming, and applied mathematics. I like solving problems. Making an existing system more efficient than it was constitutes my fundamental way of thinking. I like working on complex systems with speed and precision. I am looking for full-time opportunities as well as internship opportunities, primarily in Backend development, Design of algorithms and data structures, and Machine Learning systems.</p>
-    </article>
-
-    <h2><a href="resume.html" style="text-decoration:none;color:black">Resume</a></h2>
-    <h2><a href="project.html" style="text-decoration:none;color:black">Projects</a></h2>
-    <h2><a href="https://github.com/subham2021" style="text-decoration:none;color:black">GitHub</a></h2>
-    <h2><a href="#" style="text-decoration:none;color:black">Leetcode</a></h2>
-    <h2><a href="#" style="text-decoration:none;color:black">Contact</a></h2>
-
+    <footer>
+        <p>&copy; Portfolio, or whatever you call it.</p>
+    </footer>
+    <div id="sun"></div>
+    <div id="moon"></div>
+    <p id="viewer-count">Live viewers: 0 | Total views: 0</p>
     <script src="script.js"></script>
 </body>
 </html>
