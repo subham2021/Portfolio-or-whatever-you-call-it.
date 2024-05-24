@@ -111,8 +111,8 @@ ul.rocket-bullet li::before {
 }
 
 .rocketGame {
-    font-size: 40px; /* Decrease the size of the rocket icon */
-    transition: transform 0.1s ease-in-out; /* Add transition for scaling */ 
+    font-size: 40px; 
+    transition: transform 0.1s ease-in-out; 
     text-decoration: none;
 }
 
@@ -144,7 +144,7 @@ ul.rocket-bullet li::before {
 }
 
 .dropdown.active {
-    max-height: 1000px; /* Adjust based on content length */
+    max-height: 1000px;
     opacity: 1;
 }
 
@@ -182,13 +182,13 @@ body.night #moon {
 body.night #moon::after {
     content: '';
     position: absolute;
-    width: 200px; /* Adjust as needed */
-    height: 200px; /* Adjust as needed */
+    width: 200px;
+    height: 200px; 
     background: url('stars.png') no-repeat;
     background-size: cover;
     border-radius: 50%;
-    top: -75px; /* Adjust to center the background */
-    left: -75px; /* Adjust to center the background */
+    top: -75px;
+    left: -75px; 
     z-index: -1;
 }
 
@@ -228,7 +228,7 @@ body.night #moon::after {
             text-align:justify;
             font-size: 1.1em;
             margin:0px auto 200px ;
-                       padding: 20px;
+            padding: 20px;
 
         }
 
@@ -243,26 +243,44 @@ body.night #moon::after {
         h3 {
             font-size: 1.2em;
             
+            
+        }
+    .chain-bulletin {
+            position: relative;
+            padding-left: 1.2em; 
+
+        }
+
+        .chain-bulletin::before {
+            content: "\1F517"; 
+            font-family: Arial, sans-serif; 
+            display: inline-block; 
+            vertical-align: middle; 
+            margin-right: 5px;
+            font-size:0.6em;
+           filter: invert(100%);
+                               }
+
         }
         
         .NASBS {
     font-weight: bold;
-    color: #b71c1c; /* Darker red color */
-    font-size: 16px; /* Adjust font size to match the image */
-    text-transform: uppercase; /* Ensure all letters are uppercase */
-    font-family: Arial, sans-serif; /* Choose a similar font family */
-    text-shadow: -2px 2px 3px rgba(0,0,0,0.7); /* Distinct and dark shadow on the left side */
+    color: #b71c1c; 
+    font-size: 16px; 
+    text-transform: uppercase; 
+    font-family: Arial, sans-serif; 
+    text-shadow: -2px 2px 3px rgba(0,0,0,0.7); 
 }
 
 .NASBS a,
 .NASBS a:visited {
     color: #b71c1c; /* Red color for both regular and visited links */
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none; /* Removes underline from links */
 }
               .NASBSlogo {
-            height:3.5em; /* Adjust the height of the image */
-            vertical-align: middle; /* Align the image with the text */
-            border: none; /* Remove any border around the image */
+            height:3.5em; 
+            vertical-align: middle; /* image alignment with the text*/
+            border: none;
            }
 
         
@@ -285,20 +303,20 @@ body.night #moon::after {
          /*company logo*/
          a {
 
-            text-decoration: none; /* Remove underline from links */
+            text-decoration: none; /* Removes underline from links */
         }
  
         .company-logo {
-            height: 28px; /* Adjust the height of the image */
-            vertical-align: middle; /* Align the image with the text */
-            border: none; /* Remove any border around the image */
+            height: 28px; 
+            vertical-align: middle; 
+            border: none;
             margin-bottom: px;
         }
           
          .NAYAPATRIKAlogo{
-            height: 30px; /* Adjust the height of the image */
-            vertical-align: middle; /* Align the image with the text */
-            border: none; /* Remove any border around the image */
+            height: 30px; 
+            vertical-align: middle; 
+            border: none; 
             margin-bottom: px;
         }
           
@@ -306,17 +324,17 @@ body.night #moon::after {
 
         .SSlogo
         {
-         height:5.8em; /* Adjust the height of the image */
-            vertical-align: middle; /* Align the image with the text */
-            border: none; /* Remove any border around the image */
+         height:5.8em; 
+            vertical-align: middle; 
+            border: none; 
            }
            
         
     .BCUlogo
         {
-         height:5em; /* Adjust the height of the image */
-            vertical-align: middle; /* Align the image with the text */
-            border: none; /* Remove any border around the image */
+         height:5em; 
+            vertical-align: middle;
+            border: none; 
             margin-bottom: 10px;
             margin-top:0px;
            }
@@ -325,27 +343,27 @@ body.night #moon::after {
     .NPHSBS {
     font-weight: bold;
     color: Darkblue;
-    font-size: 17px; /* Adjust font size to match the image */
-    text-transform: uppercase; /* Ensure all letters are uppercase */
-    font-family: Arial, sans-serif; /* Choose a similar font family */
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
 }
        .NPHSBSlogo{
-         height:3.5em; /* Adjust the height of the image */
-            vertical-align: middle; /* Align the image with the text */
-            border: none; /* Remove any border around the image */
+         height:3.5em;
+            vertical-align: middle; 
+            border: none; 
            
            }
  
 .NPHSBS a,
 .NPHSBS a:visited {
-    color:Darkblue; /* Red color for both regular and visited links */
-    text-decoration: none; /* Remove underline from links */
+    color:Darkblue;
+    text-decoration: none;
 }
 
  .UGSSlogo{
-         height:4em; /* Adjust the height of the image */
-            vertical-align: middle; /* Align the image with the text */
-            border: none; /* Remove any border around the image */
+         height:4em;
+            vertical-align: middle; 
+            border: none; 
            
            }
  
